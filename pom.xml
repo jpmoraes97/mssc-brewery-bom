@@ -17,5 +17,29 @@
 
     <packaging>pom</packaging>
 
+    <licenses>
+        <license>
+            <name>GNU General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/gpl.txt</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Moraes Developer Web</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Joao Pedro Moraes</name>
+            <organization>Moraes Developer Web</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
 
 </project>
